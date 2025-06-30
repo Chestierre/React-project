@@ -1,0 +1,10 @@
+1. append on root element pointed when using createRoot
+    //inside the div of the "root". 
+2. Hello World!
+    //an object, plain Javascript Object
+3. React needs a wrapper/parent element to render.
+    //cannot have two siblings element
+4. declarative is declare something and intuitevely do it, imperative meaning you need to define the step by step procedue to accomplish the task.
+    //declarative is describe on how, imperative meaning giving step by step instuction
+5. To be customizable and reuse depending on specification.
+    //we have small pieces the we can put together to make something larger or greater than the individual pieces themselves.
