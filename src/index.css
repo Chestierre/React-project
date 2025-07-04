@@ -24,10 +24,10 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /*display: flex;*/
+  /*place-items: center;*/
+  /*min-width: 320px;*/
+  /*min-height: 100vh;*/
 }
 
 h1 {
@@ -65,4 +65,27 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+/*sample exercises*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list-item {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+
+.react-logo {
+  width: 55px;
 }

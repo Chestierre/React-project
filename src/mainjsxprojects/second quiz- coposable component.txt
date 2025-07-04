@@ -1,0 +1,8 @@
+1. A react component is a piece of object that is composable and reusable.
+//a function that returns a react elements// returning a section of dom.
+
+2. You dont need parenthesis in return just 1 line of html
+//pascal case.
+
+
+3. Wrong conevtion of call the function/component. also depending on the environment, img src need to be in absolute location to work. 

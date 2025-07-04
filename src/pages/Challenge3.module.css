@@ -1,0 +1,34 @@
+/*Challenge3.module.css*/
+:global(body) {
+  background: white !important;
+  text-align: unset !important;
+}
+
+:global(#root) {
+  background: black !important;
+  text-align: unset !important;
+  max-width: unset !important;
+  padding: unset !important;
+}
+
+/* Clean fresh layout */
+.freshLayout {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: white;
+  color: black;
+  padding: 2rem;
+}
+
+.freshLayout * {
+  all: unset;
+  display: revert;
+}
+
+/*navbar*/
+nav {
+  display:flex;
+  align-items: center;
+}
