@@ -1,5 +1,5 @@
 /*Challenge3.module.css*/
-:global(body) {
+/*:global(body) {
   background: white !important;
   text-align: unset !important;
 }
@@ -9,17 +9,17 @@
   text-align: unset !important;
   max-width: unset !important;
   padding: unset !important;
-}
+}*/
 
 /* Clean fresh layout */
 .freshLayout {
   all: unset;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background: white;
-  color: black;
-  padding: 2rem;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*min-height: 100vh;*/
+  /*background: white;*/
+  /*color: black;*/
+  /*padding: 2rem;*/
 }
 
 .freshLayout * {
@@ -28,7 +28,17 @@
 }
 
 /*navbar*/
-nav {
+.freshLayout nav {
   display:flex;
   align-items: center;
 }
+
+.freshLayout nav > img {
+  width: 40px;
+}
+
+.freshLayout header {
+  height: 90px;
+  background-color: #21222A;
+}
+
